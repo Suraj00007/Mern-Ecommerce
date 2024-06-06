@@ -1,0 +1,30 @@
+/* Contact.css */
+
+.contactContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contactButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Style for Button */
+.MuiButton-root {
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+.MuiButton-containedPrimary {
+  background-color: #2196f3; /* Change to your preferred primary color */
+  color: #ffffff; /* Change to your preferred text color */
+}
+
+.MuiButton-containedPrimary:hover {
+  background-color: #0d8af9; /* Change to your preferred hover color */
+}
